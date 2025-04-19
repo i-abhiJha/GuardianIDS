@@ -67,21 +67,6 @@ Simulation Options:
 - Port scanning attacks
 - SYN/ACK flood attacks
 
-## Detection Logic
-```mermaid
-sequenceDiagram
-    participant TrafficMonitor
-    participant IntrusionDetector
-    participant Firewall
-    
-    TrafficMonitor->>IntrusionDetector: Passes TCP packets
-    IntrusionDetector->>IntrusionDetector: Analyzes for:
-        - Port scan patterns
-        - Sequential scans
-        - OS fingerprinting
-    IntrusionDetector->>Firewall: Issues block commands
-    IntrusionDetector->>Logs: Records attack details
-```
 
 ## Testing Validation
 The system was verified against:
