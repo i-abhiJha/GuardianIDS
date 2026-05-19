@@ -66,8 +66,6 @@ python3 cli.py
 python3 test_validation.py
 ```
 
-Sure! Here's the markdown (MD) code for documenting your intrusion detection system's detection logic:
-
 
 ### Detection Logic
 
